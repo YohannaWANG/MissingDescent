@@ -78,16 +78,19 @@ $ python main.py --algorithm self-censoring --n 50 --s 1000 --d 4
 
 ## Algorithms
 
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)  **Algorithm 1**Learn a DAG structure over known chain components;
-   <img width="800" align ="center" alt="characterization" src="/docs/images/algo1.png" >
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)  **Algorithm 2**  AMP Chain graph identification from unknown chain components. 
-   <img width="800" align ="center" alt="characterization" src="/docs/images/algo2.png">    
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)  **Algorithm 1**  [Truncation_PSGD] Mean and covariance recovery algorithm given access to an
+oracle that generates samples with incomplete data;
+   <img width="800" align ="center" alt="characterization" src="/docs/algo1.PNG" >
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)  **Algorithm 2**  [MissingDescent] Mean recovery algorithm given access to an oracle that generates
+samples with incomplete data. 
+   <img width="800" align ="center" alt="characterization" src="/docs/algo2.PNG">    
    
 ## Performance
 
+[Truncation_PSGD] (Mean absolute percentage error (MAPE) and KL divergence)   
+<img width="800" alt="characterization" src="/docs/errors-over-N.pdf" > 
 
-
-Algorithm 1 (Known chain components)         | Algorithm 2 (Unknown chain components)
+Algorithm 1 (Mean absolute percentage error (MAPE) and KL divergence)         | Algorithm 2 (Unknown chain components)
 :--------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:
 <img width="400" alt="characterization" src="/docs/images/NPCOV_SHD.png" >  |  <img width="400" alt="characterization" src="/docs/images/NPCPV_SHD_algo2.png" >
 ''
