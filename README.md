@@ -88,7 +88,7 @@ samples with incomplete data.
 ## Performance
 
 [Truncation_PSGD] (Mean absolute percentage error (MAPE) and KL divergence)   
-<img width="800" alt="characterization" src="/docs/errors-over-N.pdf" > 
+<img width="800" alt="characterization" src="/docs/errors-over-N.jpg" > 
 
 Algorithm 1 (Mean absolute percentage error (MAPE) and KL divergence)         | Algorithm 2 (Unknown chain components)
 :--------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:
