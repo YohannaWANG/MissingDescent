@@ -41,28 +41,32 @@ https://github.com/YohannaWANG/Missing-Data-Literature
 ## Prerequisites
 
 - **Python 3.6+**
-  - `networkx`
+  - `seaborn`
   - `argpase`
   - `numpy`
+  - `pandas`
   - `scipy`
+  - `sklearn`
   - `matplotlib`
   - `torch`
+  - `cvxpylayers`
+  - `tqdm`
   
 ## Contents
 
-- `data.py` - generate synthetic chain graph data, including graph simulation and data simulation
-- `evaluate.py` - algorithm accuracy evaluation.
-- `utils.py` - simulation parameters, such as selecte graph type, node number, data type, graph degree, etc.  
-- `utils.R` - prune, regression, etc.
+- `data.py` - generate synthetic data. Load real data.
+- `config.py` - simulation parameters.
+- `utils.py` - difference missingness mechanism, such as self-censoring MNAR, MNAR missingness in general, MAR, MCAR. 
+- `truncationPSGD` - the implementation of the algorithm 1 in our paper.
 - `main.py` - main algorihtm.
+- `demo.ipynb`- demo of our implementation
 
 ## Parameters
 
 | Parameter    | Type | Description                      | Options            |
 | -------------|------| ---------------------------------|  :----------:      |
-| `n`          |  int |  number of nvariables            |      -             |
-| `a`          |  int |  average node degree             |      -             |
-| `d`          |  int |  number of samples               |      -             |
+| `n`          |  int |  number of samples            |      -             |
+| `d`          |  int |  number of variables               |      -             |
 | `plot`       |  Bool |  plot chain graph or not        |  -                 |
 | `algorithm`  |  str |  choice which algorithm          |   `self-censoring`, `convex-masking` |
 
@@ -82,7 +86,7 @@ Alternatively, if you have a CSV data file `X.csv`, you can install the package 
 ```bash
 $ pip install git+git://github.com/YohannaWANG/MissingDescent
 $ cd MissingDescent
-$ python main.py --algorithm self-censoring --n 50 --s 1000 --d 4 
+$ python main.py --algorithm self-censoring --d 50 --n 1000 
 ```
 
 ## Algorithms
