@@ -81,9 +81,16 @@ $ python main.py --algorithm self-censoring --n 50 --s 1000 --d 4
 - ![](https://via.placeholder.com/15/f03c15/000000?text=+)  **Algorithm 1**  [Truncation_PSGD] Distribution recovery given access to an
 oracle that generates samples with incomplete data;
    <img width="800" align ="center" alt="characterization" src="/docs/algo1.PNG" >
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)  **Algorithm 2**  [MissingDescent] Mean recovery given access to an oracle that generates
+- ![](https://via.placeholder.com/15/c5f015/000000?text=+)  **Algorithm 2**  [MissingDescent] Mean recovery given access to an oracle that generates
 samples with incomplete data. 
    <img width="800" align ="center" alt="characterization" src="/docs/algo2.PNG">    
+- ![](https://via.placeholder.com/15/c5f015/000000?text=+)  **Algorithm 3**  [Initialize] Initialization for the main algorithm.
+   <img width="800" align ="center" alt="characterization" src="/docs/algo3.PNG">    
+- ![](https://via.placeholder.com/15/c5f015/000000?text=+)  **Algorithm 4**  [SampleGradient] Sampler for $\nabla \ell(\bm{\mu})$. 
+   <img width="800" align ="center" alt="characterization" src="/docs/algo4.PNG">    
+- ![](https://via.placeholder.com/15/c5f015/000000?text=+)  **Algorithm 5**  [ProjectToDomain] The function that projects a current guess back to the domain 
+onto the $\ball_{\bm{\Sigma}}$ ball.
+   <img width="800" align ="center" alt="characterization" src="/docs/algo5.PNG">    
    
 ## Performance
 
