@@ -22,6 +22,10 @@ The missingness mechanism are as follows:
 MCAR        | MAR
 :--------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:
 <img width="400" alt="characterization" src="/docs/mcar.png" >  |  <img width="400" alt="characterization" src="/docs/mar.png" >
+:--------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:
+Self-masking MNAR       | General MNAR
+:--------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:
+<img width="400" alt="characterization" src="/docs/mnar_self_masking.png" >  |  <img width="400" alt="characterization" src="/docs/mnar_logistic.png" >
 ''
 
 
