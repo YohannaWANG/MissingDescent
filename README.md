@@ -78,10 +78,10 @@ $ python main.py --algorithm self-censoring --n 50 --s 1000 --d 4
 
 ## Algorithms
 
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)  **Algorithm 1**  [Truncation_PSGD] Mean and covariance recovery algorithm given access to an
+- ![](https://via.placeholder.com/15/f03c15/000000?text=+)  **Algorithm 1**  [Truncation_PSGD] Distribution recovery given access to an
 oracle that generates samples with incomplete data;
    <img width="800" align ="center" alt="characterization" src="/docs/algo1.PNG" >
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)  **Algorithm 2**  [MissingDescent] Mean recovery algorithm given access to an oracle that generates
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)  **Algorithm 2**  [MissingDescent] Mean recovery given access to an oracle that generates
 samples with incomplete data. 
    <img width="800" align ="center" alt="characterization" src="/docs/algo2.PNG">    
    
@@ -89,6 +89,10 @@ samples with incomplete data.
 
 [Truncation_PSGD] (Mean absolute percentage error (MAPE) and KL divergence)   
 <img width="800" alt="characterization" src="/docs/errors-over-N.jpg" > 
+:--------------------------------------------------------------------:
+
+[Truncation_PSGD] We fixed N=20,000 and varied the percentage of missing from 10% to 80%.
+<img width="800" alt="characterization" src="/docs/errors-over-missing.jpg" > 
 
 Algorithm 1 (Mean absolute percentage error (MAPE) and KL divergence)         | Algorithm 2 (Unknown chain components)
 :--------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:
