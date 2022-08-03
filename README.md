@@ -18,6 +18,13 @@ The missingness mechanism are as follows:
 2. Missing At Random. One fully observed variable lead to the missingness of another variable.
 3. Missing Not At Random. Hidden variable(s) lead to the missingness of a fully observed variable. 
 
+
+MCAR        | MAR
+:--------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:
+<img width="400" alt="characterization" src="/docs/mcar.png" >  |  <img width="400" alt="characterization" src="/docs/mar.png" >
+''
+
+
 ## Introduction
 Assume the censoring model is MNAR, we study two settings
 1. [**Self-censoring**]: Assume self-censoring mechanism, we developed a distribution learning algorithm (Algorithm 1 below) tha learns $ N(\mu^*, \Sigma^*)$ up to TV distance $\varepsilon$.
