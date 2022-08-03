@@ -102,10 +102,12 @@ onto the $\ball_{\bm{\Sigma}}$ ball.
 <img width="800" alt="characterization" src="/docs/errors-over-missing.jpg" > 
 
 :--------------------------------------------------------------------:
+
 [Truncation_PSGD] Running time on synthetic data.
-<img width="800" alt="characterization" src="/docs/running-time-over-missing.jpg" > 
+<img width="700" alt="characterization" src="/docs/running-time-over-missing.jpg" > 
 
 :--------------------------------------------------------------------:
+
 [Truncation_PSGD] Semi-synthetic dataset.
 <img width="800" alt="characterization" src="/docs/errors-Turbine.jpg" > 
 
