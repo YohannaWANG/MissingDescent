@@ -106,12 +106,10 @@ onto the $\ball_{\bm{\Sigma}}$ ball.
 [Truncation_PSGD] Running time on synthetic data.
 <img width="700" alt="characterization" src="/docs/running-time-over-missing.jpg" > 
 
-:--------------------------------------------------------------------:
 
 [Truncation_PSGD] Semi-synthetic dataset.
 <img width="800" alt="characterization" src="/docs/errors-Turbine.jpg" > 
 
-:--------------------------------------------------------------------:
 
 ## Related Works
  One paragraph in our related work section gives almost a complete history of work done on them! We summarized most of the related works below, it will also be updated accordingly. 
