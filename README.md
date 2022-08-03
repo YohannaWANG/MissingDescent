@@ -8,7 +8,7 @@
 
  This is an implementation of the following paper:
  
-[Arnab Bhattacharyya](https://www.comp.nus.edu.sg/~arnab/), [Constantinos Daskalakis](http://people.csail.mit.edu/costis/), [Themis Gouleakis](https://www.mit.edu/~tgoule/), [Vo Vinh Thanh](https://vothanhvinh.github.io/), [Wang Yuhao](https://yohannawang.com/)
+[Arnab Bhattacharyya](https://www.comp.nus.edu.sg/~arnab/), [Constantinos Daskalakis](http://people.csail.mit.edu/costis/), [Themis Gouleakis](https://www.mit.edu/~tgoule/), [Thanh Vinh Vo](https://vothanhvinh.github.io/), [Wang Yuhao](https://yohannawang.com/)
 
 "[Learning High-dimensional Gaussians from Censored Data]()" arXiv preprint arXiv (2022).
 
